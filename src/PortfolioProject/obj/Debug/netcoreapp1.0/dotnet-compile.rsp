@@ -1,5 +1,5 @@
---temp-output:c:\users\alexandra\documents\visual studio 2015\Projects\PortfolioProject\src\PortfolioProject\obj\Debug\netcoreapp1.0\
---out:c:\users\alexandra\documents\visual studio 2015\Projects\PortfolioProject\src\PortfolioProject\bin\Debug\netcoreapp1.0\PortfolioProject.dll
+--temp-output:C:\Users\Alexandra\Documents\Visual Studio 2015\Projects\PortfolioProject\src\PortfolioProject\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Alexandra\Documents\Visual Studio 2015\Projects\PortfolioProject\src\PortfolioProject\bin\Debug\netcoreapp1.0\PortfolioProject.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -208,9 +208,10 @@
 --reference:C:\Users\Alexandra\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Alexandra\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:C:\Users\Alexandra\.nuget\packages\System.Xml.XmlSerializer\4.0.11\ref\netstandard1.3\System.Xml.XmlSerializer.dll
---resource:"c:\users\alexandra\documents\visual studio 2015\Projects\PortfolioProject\src\PortfolioProject\obj\Debug\netcoreapp1.0\PortfolioProjectdotnet-compile.deps.json",PortfolioProject.deps.json
-c:\users\alexandra\documents\visual studio 2015\Projects\PortfolioProject\src\PortfolioProject\Program.cs
-c:\users\alexandra\documents\visual studio 2015\Projects\PortfolioProject\src\PortfolioProject\Startup.cs
-c:\users\alexandra\documents\visual studio 2015\Projects\PortfolioProject\src\PortfolioProject\Controllers\AboutController.cs
-c:\users\alexandra\documents\visual studio 2015\Projects\PortfolioProject\src\PortfolioProject\Controllers\HomeController.cs
-c:\users\alexandra\documents\visual studio 2015\Projects\PortfolioProject\src\PortfolioProject\Controllers\ProjectsController.cs
+--resource:"C:\Users\Alexandra\Documents\Visual Studio 2015\Projects\PortfolioProject\src\PortfolioProject\obj\Debug\netcoreapp1.0\PortfolioProjectdotnet-compile.deps.json",PortfolioProject.deps.json
+C:\Users\Alexandra\Documents\Visual Studio 2015\Projects\PortfolioProject\src\PortfolioProject\Program.cs
+C:\Users\Alexandra\Documents\Visual Studio 2015\Projects\PortfolioProject\src\PortfolioProject\Startup.cs
+C:\Users\Alexandra\Documents\Visual Studio 2015\Projects\PortfolioProject\src\PortfolioProject\Controllers\AboutController.cs
+C:\Users\Alexandra\Documents\Visual Studio 2015\Projects\PortfolioProject\src\PortfolioProject\Controllers\HomeController.cs
+C:\Users\Alexandra\Documents\Visual Studio 2015\Projects\PortfolioProject\src\PortfolioProject\Controllers\ProjectsController.cs
+C:\Users\Alexandra\Documents\Visual Studio 2015\Projects\PortfolioProject\src\PortfolioProject\Models\Project.cs
