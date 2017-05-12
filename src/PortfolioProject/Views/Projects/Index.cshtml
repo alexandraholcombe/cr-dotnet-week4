@@ -3,10 +3,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@model IEnumerable<PortfolioProject.Models.Project>
+
 <p>This is projects</p>
 
 <h3>Projects</h3>
 
-<form class="project" action="GetProjects">
-    <button type="submit">Submit</button>
-</form>
+@foreach (var project in Model)
+{
+    <p>@Html.DisplayFor(m => project.Name)</p>
+}

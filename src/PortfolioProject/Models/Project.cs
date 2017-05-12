@@ -15,7 +15,7 @@ namespace PortfolioProject.Models
         public string Url { get; set; }
         public string Language { get; set; }
 
-        public static List<Project> GetProjects(string project)
+        public static List<Project> GetProjects()
         {
             var client = new RestClient("https://api.github.com/");
             var request = new RestRequest("users/alexandraholcombe/starred?sort=created&direction=asc&per_page=3", Method.GET);
