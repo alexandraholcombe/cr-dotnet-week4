@@ -14,6 +14,12 @@ namespace PortfolioProject.Models
         public string Name { get; set; }
         public string Url { get; set; }
         public string Language { get; set; }
+        //private string Screenshot { get; set; }
+
+        //public Project()
+        //{
+        //    Screenshot = Url + "/blob/master/SCREENSHOT.PNG";
+        //}
 
         public static List<Project> GetProjects()
         {
