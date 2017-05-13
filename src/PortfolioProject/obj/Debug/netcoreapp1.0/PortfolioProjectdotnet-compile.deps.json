@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "a2dcb6aa0dd99ee1dd9c81ce705c0616f47e9b95"
+    "signature": "5ee5f3d6be5cbf1be77bebc66ef47038fdfe0eb0"
   },
   "compilationOptions": {
     "defines": [
@@ -16,6 +16,7 @@
     ".NETCoreApp,Version=v1.0": {
       "PortfolioProject/1.0.0": {
         "dependencies": {
+          "BuildWebCompiler": "1.11.339",
           "Microsoft.AspNetCore.Diagnostics": "1.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "1.1.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0",
@@ -36,6 +37,7 @@
           "PortfolioProject.dll": {}
         }
       },
+      "BuildWebCompiler/1.11.339": {},
       "Libuv/1.9.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -2884,6 +2886,7 @@
     ".NETCoreApp,Version=v1.0/": {
       "PortfolioProject/1.0.0": {
         "dependencies": {
+          "BuildWebCompiler": "1.11.339",
           "Microsoft.AspNetCore.Diagnostics": "1.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "1.1.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0",
@@ -2904,6 +2907,7 @@
           "PortfolioProject.dll": {}
         }
       },
+      "BuildWebCompiler/1.11.339": {},
       "Libuv/1.9.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -5659,6 +5663,11 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BuildWebCompiler/1.11.339": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4F3wf+lc0mBWk5X6D7dUFSU+64bIgweVxohouNRHHDMnKQbiT9pBP695Sh5QzPj53B6SdIaw6NuoMQlmqty/iA=="
     },
     "Libuv/1.9.0": {
       "type": "package",

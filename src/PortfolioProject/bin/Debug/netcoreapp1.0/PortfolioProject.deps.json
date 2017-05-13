@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0",
-    "signature": "eda4b87fe87b3dedf66bfd43ebadb4eb0d7a1af2"
+    "signature": "52a76e91d041f7a5b835cfe41894e351ad164367"
   },
   "compilationOptions": {
     "defines": [
@@ -16,6 +16,7 @@
     ".NETCoreApp,Version=v1.0": {
       "PortfolioProject/1.0.0": {
         "dependencies": {
+          "BuildWebCompiler": "1.11.339",
           "Microsoft.AspNetCore.Diagnostics": "1.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "1.1.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0",
@@ -39,6 +40,7 @@
           "PortfolioProject.dll": {}
         }
       },
+      "BuildWebCompiler/1.11.339": {},
       "Microsoft.AspNetCore.Antiforgery/1.0.1": {
         "dependencies": {
           "Microsoft.AspNetCore.DataProtection": "1.0.0",
@@ -3805,6 +3807,11 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BuildWebCompiler/1.11.339": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4F3wf+lc0mBWk5X6D7dUFSU+64bIgweVxohouNRHHDMnKQbiT9pBP695Sh5QzPj53B6SdIaw6NuoMQlmqty/iA=="
     },
     "Microsoft.AspNetCore.Antiforgery/1.0.1": {
       "type": "package",
