@@ -3,6 +3,9 @@
   "version": 2,
   "targets": {
     ".NETCoreApp,Version=v1.0": {
+      "BuildWebCompiler/1.11.339": {
+        "type": "package"
+      },
       "Libuv/1.9.0": {
         "type": "package",
         "dependencies": {
@@ -4347,6 +4350,20 @@
     }
   },
   "libraries": {
+    "BuildWebCompiler/1.11.339": {
+      "sha512": "4F3wf+lc0mBWk5X6D7dUFSU+64bIgweVxohouNRHHDMnKQbiT9pBP695Sh5QzPj53B6SdIaw6NuoMQlmqty/iA==",
+      "type": "package",
+      "path": "BuildWebCompiler/1.11.339",
+      "files": [
+        "BuildWebCompiler.1.11.339.nupkg.sha512",
+        "BuildWebCompiler.nuspec",
+        "build/BuildWebCompiler.targets",
+        "tools/AjaxMin.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/WebCompiler.exe",
+        "tools/WebCompiler.pdb"
+      ]
+    },
     "Libuv/1.9.0": {
       "sha512": "GXCHnxLUf9OU35JufJlGmmL0r0HilEapKR8lnwXQBhw1EyRvJaHtN9A8TUIRxLtUGH/J2zs8AxWRcFehuGijsA==",
       "type": "package",
@@ -11104,6 +11121,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
+      "BuildWebCompiler >= 1.11.339",
       "Microsoft.AspNetCore.Diagnostics >= 1.0.0",
       "Microsoft.AspNetCore.Http.Abstractions >= 1.1.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 1.0.0",

@@ -1,5 +1,6 @@
-﻿{
+{
   "dependencies": {
+    "BuildWebCompiler": "1.11.339",
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",
     "Microsoft.AspNetCore.Http.Abstractions": "1.1.0",
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0",
