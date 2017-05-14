@@ -6,7 +6,7 @@
 @model IEnumerable<PortfolioProject.Models.Project>
 
 <div class="banner">
-    <h1>Allie Holcombe</h1>
+    <h1>@Html.ActionLink("Allie Holcombe", "Index", "Home")</h1>
     <ul class="list-unstyled">
         <li>@Html.ActionLink("About", "Index", "About")</li>
         <li>@Html.ActionLink("Projects", "Index", "Projects")</li>
@@ -14,9 +14,10 @@
 </div>
 
 <div class="content-wrapper">
+    <p class="project"><em>Most Starred on GitHub</em></p>
 
     @foreach (var project in Model)
     {
-        <p>@Html.DisplayFor(m => project.Name)</p>
+        <p class="project"><a href=@project.Url>@Html.DisplayFor(m => project.Name)</a></p>
     }
 </div>

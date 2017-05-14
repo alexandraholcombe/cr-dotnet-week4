@@ -78,3 +78,15 @@ a {
   shape-outside: circle();
   /*This line may not work*/ }
 
+.project {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px; }
+  .project:last-of-type {
+    margin-bottom: 0px; }
+  .project em {
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+    color: #febf12; }
+

@@ -14,6 +14,8 @@
     background-color: rgba(0, 0, 0, .5);
 }
 
+$yellow: #febf12;
+
 html {
     background: url('../images/seattleimg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -41,7 +43,7 @@ a {
     transition: .5s;
 
     &:hover, &:active, &:focus {
-        color: #febf12;
+        color: $yellow;
         text-decoration: none;
     }
 }
@@ -97,4 +99,19 @@ a {
     margin-right: 50px;
     -webkit-shape-outside: circle();
     shape-outside: circle(); /*This line may not work*/
+}
+
+.project {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    &:last-of-type{
+        margin-bottom: 0px;
+    }
+    em {
+        font-size: 40px;
+        font-weight: 600;
+        font-style: normal;
+        color: $yellow;
+    }
 }
