@@ -40,7 +40,7 @@ a {
     -webkit-transition: .5s;
     transition: .5s;
 
-    &:hover, &:active {
+    &:hover, &:active, &:focus {
         color: #febf12;
         text-decoration: none;
     }

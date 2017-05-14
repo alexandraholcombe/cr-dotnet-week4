@@ -24,7 +24,7 @@ a {
   -moz-transition: .5s;
   -webkit-transition: .5s;
   transition: .5s; }
-  a:hover, a:active {
+  a:hover, a:active, a:focus {
     color: #febf12;
     text-decoration: none; }
 
