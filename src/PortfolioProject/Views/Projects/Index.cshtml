@@ -5,11 +5,18 @@
 
 @model IEnumerable<PortfolioProject.Models.Project>
 
-<p>This is projects</p>
+<div class="banner">
+    <h1>Allie Holcombe</h1>
+    <ul class="list-unstyled">
+        <li>@Html.ActionLink("About", "Index", "About")</li>
+        <li>@Html.ActionLink("Projects", "Index", "Projects")</li>
+    </ul>
+</div>
 
-<h3>Projects</h3>
+<div class="content-wrapper">
 
-@foreach (var project in Model)
-{
-    <p>@Html.DisplayFor(m => project.Name)</p>
-}
+    @foreach (var project in Model)
+    {
+        <p>@Html.DisplayFor(m => project.Name)</p>
+    }
+</div>
