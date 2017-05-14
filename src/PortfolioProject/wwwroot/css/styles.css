@@ -12,18 +12,36 @@ html {
 body {
   background-color: transparent;
   position: relative;
-  min-height: 100vh; }
+  min-height: 100vh;
+  color: white; }
 
-.banner {
+a {
+  color: white;
+  text-decoration: none;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+  a:hover {
+    color: #febf12;
+    text-decoration: none; }
+
+.home-banner {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 0 20px; }
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.banner {
+  padding: 0 20px;
+  max-width: 690px;
+  /*left: 50%;
+    transform: translate(-50%, -50%);*/
+  margin: 0 auto; }
   .banner h1 {
     font-family: 'Baron Neue', sans-serif;
-    color: white;
     text-transform: uppercase;
     font-size: 80px;
     text-align: center;
@@ -37,7 +55,11 @@ body {
       font-family: 'Castro Script PERSONAL USE ONLY';
       text-transform: lowercase;
       font-size: 50px; }
-  .banner a {
-    color: white;
-    text-decoration: none; }
+
+.content-wrapper {
+  max-width: 690px;
+  /*left: 50%;
+    transform: translate(-50%, -50%);*/
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.4); }
 
