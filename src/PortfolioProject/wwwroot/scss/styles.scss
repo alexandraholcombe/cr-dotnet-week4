@@ -11,7 +11,7 @@
 }
 
 @mixin bg-color {
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .5);
 }
 
 html {
@@ -27,6 +27,7 @@ body {
     position: relative;
     min-height: 100vh;
     color: white;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -39,7 +40,7 @@ a {
     -webkit-transition: .5s;
     transition: .5s;
 
-    &:hover {
+    &:hover, &:active {
         color: #febf12;
         text-decoration: none;
     }
@@ -82,4 +83,7 @@ a {
 .content-wrapper {
     @include boxes;
     @include bg-color;
+    padding: 15px 30px;
+    margin-top: 30px;
+    font-size: 16px;
 }

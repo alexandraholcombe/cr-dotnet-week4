@@ -13,7 +13,8 @@ body {
   background-color: transparent;
   position: relative;
   min-height: 100vh;
-  color: white; }
+  color: white;
+  font-family: "Open Sans", sans-serif; }
 
 a {
   color: white;
@@ -23,7 +24,7 @@ a {
   -moz-transition: .5s;
   -webkit-transition: .5s;
   transition: .5s; }
-  a:hover {
+  a:hover, a:active {
     color: #febf12;
     text-decoration: none; }
 
@@ -32,7 +33,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.4); }
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .banner {
   padding: 0 20px;
@@ -61,5 +62,8 @@ a {
   /*left: 50%;
     transform: translate(-50%, -50%);*/
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.4); }
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 30px;
+  margin-top: 30px;
+  font-size: 16px; }
 
