@@ -12,7 +12,7 @@ namespace PortfolioProject.Models
     {
         public int ProjectId { get; set; }
         public string Name { get; set; }
-        public string Url { get; set; }
+        public string HTML_Url { get; set; }
         public string Language { get; set; }
         //private string Screenshot { get; set; }
 
